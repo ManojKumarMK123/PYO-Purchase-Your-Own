@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body .body{
+    height: 100%;
+    width: 100%;
+    background: -webkit-linear-gradient(0deg, #fff5d9 0%, #ffe3e3 100%);
+    background: linear-gradient(0deg, #fff5d9 0%, #ffe3e3 100%);
+    margin: 0;
+   
+}
+.gap{
+    height: 40px;
+    /* margin-top: 40px; */
+}
+/* h3{
+    display: flex;
+    justify-content: center;
+} */
+/* h3{
+    position: relative;
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+} */
+/* h3::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;width: 0;
+    height: 100%;
+    color: #feed00;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid #feed00;
+    overflow: hidden;
+    animation: animates 2s linear infinite;
+    -webkit-animation: animates 2s linear infinite;
+
+} */
+/* @keyframes animates {
+    0%{
+        width: 0%;
+            }
+    70%{
+        width: 100%;
+    }
+} */

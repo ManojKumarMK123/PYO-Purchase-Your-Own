@@ -1,0 +1,180 @@
+@media screen and (max-width: 1050px) {
+    body {
+        background-color: rgb(223, 234, 255);
+    }
+
+    nav {
+        flex-direction: column;
+    }
+    .slider{
+        height: 30vh;
+    }
+    .logo {
+        justify-content: center;
+        /* margin: 12px 0; */
+
+    }
+    .card-item img{
+        width: 140px;
+        height: 140px;
+    }
+    .cards{
+        display:block ruby;
+    }
+    nav ul {
+        justify-content: center;
+    }
+    .search-log{
+        /* height: 40px; */
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .diff-content{
+        margin-top: 130px;
+        margin-bottom: 10px;
+    }
+
+    /* .search {
+        justify-content: center;
+    }
+
+    .search {
+        margin: 12px 16px;
+    } */
+
+    nav ul {
+        height: 25px;
+    }
+    nav .float{
+        justify-content: center;
+    }
+
+    /* .intro-help {
+        padding-top: 25vh;
+        height: auto;
+      } */
+    
+}
+@media screen and (max-width: 1230px){
+    header nav .profile{
+    margin-left: 10vw;
+    }
+}
+@media screen and (max-width: 1200px)
+{
+    .customer {
+        justify-content: center;
+        margin: 0px 0;
+        /* margin-top: 10px; */
+
+    }
+    
+}
+@media screen and (max-width: 950px)
+{
+
+    .contentt p{
+        display: none;
+    }
+    .contentt img{
+        height: 80px;
+        width: 80px;
+    }
+    .contentt h3{
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .contentt h6{
+        font-size: 12px;
+    }
+    .contentt .fa{
+        font-size: 10px;
+    }
+    .block1{
+        height: auto;
+        /* width: 80vw; */
+        background-color: rgb(0, 195, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-flow: wrap;
+        overflow: scroll;
+    }
+    .seprate{
+        background-color: rgb(232, 227, 92);
+        width: 70vw;
+        overflow: scroll;
+        height: auto;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-flow: wrap; */
+    }
+    .sub-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    nav ul li .fa{
+        display:block;
+    }
+    nav ul li  p{
+        display: none;
+    }
+    nav ul li{
+            list-style: none;
+            padding: 0 30px 0 30px;          
+    }
+    .bottom-border{
+        padding: 0 30px 0 30px;
+        border: none;
+
+    }
+    .profile{
+        /* position: absolute; */
+        border: none;
+        /* background-color: none; */
+        background-color: transparent;
+        font-size: 20px;
+        display: flex;
+        padding-right: 4px;
+    }
+    .profile:hover{
+        background-color: orange;
+    }
+    .profile p a{
+        display:none;
+    }
+    .fa-user::before{
+        display: block;
+        color: black;
+    }
+}
+@media screen and (max-width: 350px){
+    nav ul li{
+        list-style: none;
+        padding: 0 20px 0 20px;          
+}
+.bottom-border{
+    padding: 0 20px 0 20px;
+    border: none;
+
+}
+}
+@media screen and (max-width: 250px){
+    nav ul li{
+        list-style: none;
+        padding: 0 15px 0 15px;          
+}
+.bottom-border{
+    padding: 0 15px 0 15px;
+    border: none;
+
+}
+}
+

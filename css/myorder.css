@@ -1,0 +1,51 @@
+.myorder-bg{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/img/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    
+} 
+
+.obox{
+    height: auto;
+    width: 60vw;
+    background-color: rgb(249, 202, 245);
+    margin: auto;
+    /* display: flex; */
+    border-radius: 30px;
+}
+
+.heading{
+    padding: 10px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.heading p{
+    color: blue;
+}
+.wentwrong img{
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    /* justify-content: center; */
+    margin: auto;
+    padding: auto;
+}
+
+.wrongmessage{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(3, 0, 155);
+    font-size: 20px;
+    /* padding: top 20px;; */
+    padding-top: 5%;
+padding-bottom: 5%;
+}

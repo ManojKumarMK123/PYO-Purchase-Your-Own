@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="reposive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    body {
+      background-image: url(/img/newloginsignup.jpg);
+      background-size: cover;
+    }
+
+    .abc {
+      height: 15vh;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+        <div class="logo">
+            <img src="/img/logo.png" style="height: 50px; ;width:80px" alt="">
+        </div>
+        <ul>
+            <li><a href="/index.html">
+                    <p> Home</p> <i class="fa fa-home"></i>
+                </a></li>
+            <li><a href="/about.html">
+                    <p>About</p> <i class="fa fa-info-circle"></i>
+                </a></li>
+            <!-- <li><a href="contact.html" target="_blank">
+                    <p>Contact</p><i class="fa fa-address-book"></i>
+                </a></li> -->
+            <li><a href="help.html">
+                    <p>Help</p><i class="fa fa-lightbulb-o"></i>
+                </a></li>
+            <li><a href="/myorder.html">
+                    <p> MyOrder </p> <i class="fa fa-shopping-cart"></i>
+                </a></li>
+
+        </ul>
+        <div class="search-log">
+
+            <div class="search-box">
+                <input type="text" class="search" placeholder="Serch here">
+                <button type="submit" class="search-btn">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+            <!-- <div class="search">
+            <input type="text" placeholder="Search here" name="" id="">
+            <button style="border:2px outset black ;height:36px;background-color:white;color:black;"
+                class="btn"><h4 data-text="Search">Search</h4></button>
+            </div> -->
+
+                <button class="profile">
+
+                    <p class="log"><a href="login.html">
+                            <p>Login</p><i class="fa fa-user"></i>
+                        </a>
+                    </p>
+                </button>
+            
+        </div>
+    </nav>
+</header>
+  <div class="abc">
+
+  </div>
+  <div class="login-box">
+    <h1>Login</h1>
+    <form>
+      <label for="">Email</label>
+      <input type="email" placeholder="">
+      <label for="">Password</label>
+      <input type="password" placeholder="">
+      <input type="button" name="" value="Submit" id="">
+      <div style="display:flex;padding-top: 20px;align-items: center;" class="remember">
+        <input style="margin: 5px;width: 20px" type="checkbox" name="" id=""><span>Remember me</span>
+      </div>
+      <p style="padding-top:2px"><a style="display:flex ;" href="#">Forgot Password</a></p>
+    </form>
+  </div>
+  <p class="para-2">Not have a account? <a href="signup.html">signup here</a></p>
+</body>
+
+</html>
